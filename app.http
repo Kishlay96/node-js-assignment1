@@ -9,10 +9,10 @@ Content-Type: application/json
 {
   "id": 6,
   "todo": "Finalize event theme",
-  "priority": "LO",
+  "priority": "LOW",
   "status": "TO DO",
   "category": "HOME",
-  "dueDate": "2021-02-22"
+  "dueDate": "2021-13-31"
 }
 
 ###
@@ -21,6 +21,7 @@ PUT http://localhost:3000/todos/1
 Content-Type: application/json
 
 {
-  "dueDate": "2021-01-14"
-}
+  "category": "LEARNING",
+  "priority": "HIGH"
 
+}
